@@ -32,16 +32,13 @@ def Weight_update(feature, label, weight_i2o):
     array_lab.append(arr-c)
     weight_upd = weight_i2o + eta*np_transposed.transpose()*array_lab
     return weight_upd
-    ##
-	#Update the weights for a train feature.
-		# Inputs:
-			# feature: feature vector (ndarray) of a data point with 785 dimensions. Here, the feature represents a handwritten digit 
-			         # of a 28x28 pixel grayscale image, which is flattened into a 785-dimensional vector (include bias)
-			# label: Actual label of the train feature 
-			# weight_i2o: current weights with shape (in_dim x out_dim) from input (feature vector) to output (digit number 0-9)
-		# Return: updated weight
-	##
-	#"*** YOUR CODE HERE ***"
+
+	# Inputs:
+		# feature: feature vector (ndarray) of a data point with 785 dimensions. Here, the feature represents a handwritten digit 
+			 # of a 28x28 pixel grayscale image, which is flattened into a 785-dimensional vector (include bias)
+		# label: Actual label of the train feature 
+		# weight_i2o: current weights with shape (in_dim x out_dim) from input (feature vector) to output (digit number 0-9)
+	# Return: updated weight	
 
 
 def get_predictions(dataset, weight_i2o):
