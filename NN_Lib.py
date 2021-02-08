@@ -33,13 +33,7 @@ def weight_update(feature, label, weight_i2h, weight_h2o):
     #"""compute activations at output layer"""
     scores_ol = np.dot(hl_input, weight_h2o)
     sig_ol = expit(scores_ol)
-
-
-	
-    ####### Update weights ##########
-	#"*** YOUR CODE HERE ***"
-	
-   
+ 
       
     return weight_i2h, weight_h2o
 
