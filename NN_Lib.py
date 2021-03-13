@@ -50,7 +50,6 @@ def get_predictions(dataset, weight_i2h, weight_h2o):
 	# Hint: follow the feed forward step above (from lines 28-35) to compute activations at output layer. Then, find the label
 	# that returns highest value of activation.
 	# """
-	# "*** YOUR CODE HERE ***"
    
     return dataset
    
