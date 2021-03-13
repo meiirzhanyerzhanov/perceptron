@@ -56,7 +56,7 @@ def get_predictions(dataset, weight_i2o):
 			# weight_i2o: current weights with shape (in_dim x out_dim)
 		# Return: list (or ndarray) of predicted labels from given dataset
 	#"""
-	#"*** YOUR CODE HERE ***"
+
 
 
 def train(train_set, labels, weight_i2o):
