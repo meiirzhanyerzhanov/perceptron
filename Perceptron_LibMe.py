@@ -17,7 +17,6 @@ def Weight_update(feature, label, weight_i2o):
             # weight_i2o: current weights with shape (in_dim x out_dim) from input (feature vector) to output (digit number 0-9)
         # Return: updated weight
     ##
-    #"*** YOUR CODE HERE ***"
 
     ggg = get_predictions(feature, weight_i2o)
     # creating array of two 10 dimensional y(x) and t(x).
@@ -67,7 +66,6 @@ def get_predictions(dataset, weight_i2o):
             # weight_i2o: current weights with shape (in_dim x out_dim)
         # Return: list (or ndarray) of predicted labels from given dataset
     #"""
-    #"*** YOUR CODE HERE ***"
     arr_dataset = np.array(dataset)
     arr_weight = np.array(weight_i2o)
     pred = []
